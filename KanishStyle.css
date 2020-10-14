@@ -1,0 +1,22 @@
+body {
+    background-color:white;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  .button1{
+      background-color: green;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
