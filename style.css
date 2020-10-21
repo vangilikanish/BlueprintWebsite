@@ -1,37 +1,62 @@
 body {
-    background-color: lightblue;
-  }
+  background-color: lightblue;
+}
+
+h1 {
+color: white;
+text-align: center;
+}
+
+p {
+font-size: 15px;
+}
+
+div.a {
+  text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+
+div.c {
+  text-align: right;
+} 
+
+div.d {
+  text-align: justify;
+} 
+img {
+  border-radius: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.button{
+  font: bold;
+  text-decoration: none;
+  background-color: darkblue;
+  color: white;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+
+
+}
+
+table, th, td {
+  font-family: "Lucida Console", Monaco, monospace;
+  border: 1px solid black;
+}
+
+.padding {
+  margin-left: 15px;
+  margin-top: 15px;
   
-  h1 {
-    color: white;
-    text-align: center;
-  }
-  
-  p {
-    font-family: verdana;
-    font-size: 20px;
-  }
-
-  .button{
-      font: bold;
-      text-decoration: none;
-      background-color: darkblue;
-      color: white;
-      padding: 2px 6px 2px 6px;
-      border-top: 1px solid black;
-      border-bottom: 1px solid black;
-      border-right: 1px solid black;
-      border-left: 1px solid black;
-
-
-  }
-
-  table, th, td {
-    border: 1px solid black;
-  }
-
-  .padding {
-    margin-left: 15px;
-    margin-top: 15px;
-  }
-
